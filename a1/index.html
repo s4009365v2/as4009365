@@ -24,4 +24,194 @@
     <link href="assets/css/styles.css" rel="stylesheet">
 </head>
 
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light"
+            style="background: linear-gradient(135deg, #cd4f07, #f6978e);">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="SkillSwap_logo.png" alt="SkillSwap" height="30">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white fw-bold" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="skills.html">ALL SKILLS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="gallery.html">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="add.html">ADD SKILL</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex">
+                        <div class="input-group">
+                            <input class="form-control" type="search" placeholder="SEARCH SKILLS" aria-label="Search"
+                                style="background: rgba(255,255,255,0.9);">
+                            <button class="btn btn-light" type="submit">
+                                <span class="material-icons">search</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with Title -->
+        <div class="hero-section bg-light-pink py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 class="display-4 mb-2" style="color: #cd4f07; font-family: 'Libre Baskerville', serif;">
+                            SkillSwap</h1>
+                        <p class="lead text-muted" style="font-family: 'Ysabeau SC', sans-serif;">BROWSE THE LATEST
+                            SKILLS SHARED BY OUR COMMUNITY.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid px-0">
+            <!-- Carousel Section -->
+            <div id="skillCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#skillCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#skillCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#skillCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#skillCarousel" data-bs-slide-to="3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="1.png" class="d-block w-100 carousel-image" alt="Beginner Guitar Lessons">
+                        <div class="carousel-caption d-md-block">
+                            <h5 style="color: white; font-size: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">
+                                BEGINNER GUITAR LESSONS</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="2.png" class="d-block w-100 carousel-image" alt="Intermediate Fingerstyle">
+                        <div class="carousel-caption d-md-block">
+                            <h5 style="color: white; font-size: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">
+                                INTERMEDIATE FINGERSTYLE</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="3.png" class="d-block w-100 carousel-image" alt="Artisan Bread Baking">
+                        <div class="carousel-caption d-md-block">
+                            <h5 style="color: white; font-size: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">
+                                Artisan Bread Baking</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="4.png" class="d-block w-100 carousel-image" alt="French Pastry Making">
+                        <div class="carousel-caption d-md-block">
+                            <h5 style="color: white; font-size: 2rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">
+                                FRENCH PASTRY MAKING</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#skillCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#skillCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills-section py-5" style="background-color: #fff5f8;">
+            <div class="container">
+                <div class="row g-4">
+                    <!-- Skill Card 1 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="skill-card-home">
+                            <div class="skill-content">
+                                <h4 style="color: #cd4f07; font-family: 'Libre Baskerville', serif;">INTRO TO PHP &
+                                    MYSQL</h4>
+                                <p class="skill-rate" style="color: #6b5b95; font-weight: bold;">RATE: $55.00/HR</p>
+                                <button class="btn btn-skill"
+                                    style="background-color: #cd4f07; color: white; border-radius: 20px; padding: 8px 20px; border: none; font-weight: bold;">VIEW
+                                    DETAILS</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 2 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="skill-card-home">
+                            <div class="skill-content">
+                                <h4 style="color: #cd4f07; font-family: 'Libre Baskerville', serif;">INTERMEDIATE
+                                    FINGERSTYLE</h4>
+                                <p class="skill-rate" style="color: #6b5b95; font-weight: bold;">RATE: $45.00/HR</p>
+                                <button class="btn btn-skill"
+                                    style="background-color: #cd4f07; color: white; border-radius: 20px; padding: 8px 20px; border: none; font-weight: bold;">VIEW
+                                    DETAILS</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="skill-card-home">
+                            <div class="skill-content">
+                                <h4 style="color: #cd4f07; font-family: 'Libre Baskerville', serif;">ARTISAN BREAD
+                                    BAKING</h4>
+                                <p class="skill-rate" style="color: #6b5b95; font-weight: bold;">RATE: $35.00/HR</p>
+                                <button class="btn btn-skill"
+                                    style="background-color: #cd4f07; color: white; border-radius: 20px; padding: 8px 20px; border: none; font-weight: bold;">VIEW
+                                    DETAILS</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 4 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="skill-card-home">
+                            <div class="skill-content">
+                                <h4 style="color: #cd4f07; font-family: 'Libre Baskerville', serif;">FRENCH PASTRY
+                                    MAKING</h4>
+                                <p class="skill-rate" style="color: #6b5b95; font-weight: bold;">RATE: $50.00/HR</p>
+                                <button class="btn btn-skill"
+                                    style="background-color: #cd4f07; color: white; border-radius: 20px; padding: 8px 20px; border: none; font-weight: bold;">VIEW
+                                    DETAILS</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer style="background: linear-gradient(135deg, #cd4f07, #f6978e); color: white;" class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0" style="font-family: 'Ysabeau SC', sans-serif;">&copy; 2025 SkillSwap - Alex Breen.
+                        All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/scripts.js"></script>
+</body>
+
 </html>
