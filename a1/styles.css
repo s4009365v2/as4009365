@@ -73,13 +73,14 @@ h6 {
 }
 
 .carousel-caption {
-    bottom: 50%;
-    transform: translateY(50%);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 25px;
+    border-radius: 8px;
+    bottom: 20px;
     left: 50%;
-    right: auto;
-    transform: translate(-50%, 50%);
-    background: none;
-    text-align: center;
+    transform: translateX(-50%);
+    width: 80%;
+
 }
 
 .carousel-caption h5 {
