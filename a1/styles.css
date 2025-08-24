@@ -7,11 +7,17 @@
     --gradient-pink: #f6978e;
 }
 
+/*override for heading color on skills page*/
+.form-container h1 {
+    color: var(--primary-orange) !important;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
 /* global styles */
 body {
     font-family: 'Ysabeau SC', sans-serif;
     color: var(--dark-gray);
-    /* background-color: var(--light-pink); */
 }
 
 h1,
@@ -136,6 +142,68 @@ h6 {
     background-color: #b8440a !important;
     color: white;
 }
+
+
+/*form container styles*/
+/*.form-container {}*/
+
+/*form field stying*/
+.form-label {
+    font-weight: 600;
+    color: var(--dark-gray);
+    margin-bottom: 0.5rem;
+}
+
+.form-control,
+.form-select {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.75rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--primary-orange);
+    box-shadow: 0 0 0 0.2rem rgba(205, 79, 7, 0.25);
+}
+
+.form-text {
+    color: #6c757d;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+
+/*error styling */
+.error-message {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25;
+    display: block;
+}
+
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.is-valid {
+    border-color: #28a745;
+}
+
+/*button spacing */
+.text-center .btn {
+    margin: 0 0.5rem;
+}
+
+
+
+
+
+
+
+
+
 
 /* skill card styles */
 .skill-card {
